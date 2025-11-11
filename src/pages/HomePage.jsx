@@ -15,8 +15,6 @@ function HomePage() {
     subtitle="Tradition, strength, and celebration"
     />
 
-
-
       {/* Introduction */}
       <section className="p-6 max-w-5xl mx-auto grid md:grid-cols-2 gap-6">
         <div>
@@ -30,19 +28,19 @@ function HomePage() {
       </section>
 
       {/* What Are the Highland Games? */}
-      <section className="bg-white p-6 max-w-5xl mx-auto rounded-lg shadow mb-10">
-        <h2 className="text-2xl font-semibold text-green-700 mb-4">What Are the Highland Games?</h2>
-        <p className="mb-4">
-          The Highland Games are a celebration of Scottish culture, featuring traditional athletic events
-          such as caber tossing, tug-of-war, and hammer throwing. They also include music, dance, and
-          community festivities, making them a vibrant part of Scotland’s summer calendar.
-        </p>
-        <p className="mb-4">
-          The Paisley Highland Games will be held at <strong>Barshaw Park, Paisley</strong> on
-          <strong>Saturday, 14th June 2025</strong>. The event is open to the public and welcomes
-          volunteers, competitors, and spectators alike.
-        </p>
-      </section>
+<section className="bg-white p-6 max-w-5xl mx-auto rounded-lg shadow mb-10">
+  <h2 className="text-3xl font-bold text-blue-800 mb-4">What Are the Highland Games?</h2>
+  <p className="mb-4 text-lg text-gray-800">
+    The Highland Games are a centuries-old celebration of Scottish culture, combining athleticism, music, and tradition.
+    Originating in the 11th century under King Malcolm III, they were used to select the strongest warriors and messengers.
+    Today, they showcase iconic events like caber tossing, hammer throwing, and tug-of-war, alongside Highland dancing and pipe band competitions.
+  </p>
+  <p className="mb-4 text-gray-700">
+    These games are more than sport — they’re a vibrant expression of clan identity, community pride, and national heritage.
+    Held across Scotland each summer, they attract thousands of visitors eager to experience the spectacle and spirit of the Highlands.
+  </p>
+</section>
+
 
       {/* Highland Games Visual Highlights */}
       <section className="p-6 max-w-5xl mx-auto mb-10">
@@ -70,22 +68,25 @@ function HomePage() {
       </section>
 
       {/* Upcoming Events */}
-      <section className="bg-white p-6 max-w-5xl mx-auto rounded-lg shadow mb-10">
-        <h2 className="text-2xl font-semibold text-green-700 mb-4">About the Highland Games</h2>
-        <p className="mb-4">
-          The Paisley Highland Games will be held at <strong>Barshaw Park</strong> on
-          <strong>Saturday, 14th June 2025</strong>. Expect caber tossing, pipe bands, Highland dancing,
-          and more.
-        </p>
-        <img src="/images/rope.png" alt="Tug of War" className="rounded shadow-md mb-4" />
-        <h3 className="text-xl font-bold text-blue-800 mb-2">Upcoming Games Across Scotland</h3>
-        <ul className="list-disc pl-5 space-y-2">
-          <li><strong>Gourock Highland Games</strong> – 11 May 2025</li>
-          <li><strong>Atholl Gathering</strong> – 25 May 2025</li>
-          <li><strong>Markinch Highland Games</strong> – 1 June 2025</li>
-          <li><strong>Helensburgh & Lomond Games</strong> – 7 June 2025</li>
-          <li><strong>Drumtochty Highland Games</strong> – 28 June 2025</li>
-        </ul>
+      <section className="p-6 max-w-5xl mx-auto grid md:grid-cols-2 gap-6 items-center mb-10 bg-white rounded-lg shadow">
+        <div>
+          <h2 className="text-2xl font-semibold text-green-700 mb-2">About the Paisley Highland Games</h2>
+          <p className="mb-4">
+            The Paisley Highland Games are a modern revival of Scotland’s proud tradition, bringing together athletes,
+            musicians, dancers, and families for a day of celebration. Held at <strong>Barshaw Park</strong> on
+            <strong> Saturday, 14th June 2025</strong>, the event features iconic competitions like caber tossing,
+            tug-of-war, and stone put — alongside pipe bands, Highland dancing, and local food vendors.
+          </p>
+          <p className="text-gray-700">
+            Whether you're competing, volunteering, or spectating, the Games offer a chance to connect with Scottish heritage
+            in a vibrant, inclusive setting. The event is open to all and welcomes visitors from across Renfrewshire and beyond.
+          </p>
+        </div>
+        <img
+          src="/images/rope.png"
+          alt="Tug of War"
+          className="rounded shadow-md w-full h-auto max-h-64 object-cover"
+        />
       </section>
 
       {/* Available Roles */}
