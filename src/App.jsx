@@ -4,6 +4,7 @@ import HomePage from './pages/HomePage';
 import ApplyRole from './pages/ApplyRole';
 import EventsPage from './pages/EventsPage';
 import RegisterPage from './pages/RegisterPage';
+import ResultsPage from './pages/ResultsPage';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/apply/:role" element={<ApplyRole />} />
         <Route path="/events" element={<EventsPage />} />
         <Route path="/register" element={<RegisterPage />} />
+        <Route path="/results" element={<ResultsPage />} />
       </Routes>
     </>
   );
