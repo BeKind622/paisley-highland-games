@@ -11,6 +11,7 @@ function Header() {
         <Link to="/" className="hover:underline">Home</Link>
         <Link to="/events" className="hover:underline">Events</Link>
         <Link to="/apply" className="hover:underline">Apply</Link>
+        <Link to="/register" className="hover:underline">Register</Link>
         <Link to="/contact" className="hover:underline">Contact</Link>
       </nav>
     </header>
