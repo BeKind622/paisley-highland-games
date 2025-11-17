@@ -4,12 +4,30 @@ import HeroBanner from '../components/HeroBanner';
 import { FaMapMarkerAlt, FaCalendarAlt } from 'react-icons/fa';
 
 const events = [
-  { name: "Gourock Highland Games", date: "11 May 2025", location: "Gourock, Inverclyde", region: "South West" },
-  { name: "Atholl Gathering", date: "25 May 2025", location: "Blair Castle, Perthshire", region: "West Midlands" },
-  { name: "Markinch Highland Games", date: "1 June 2025", location: "Markinch, Fife", region: "East Midlands" },
-  { name: "Helensburgh & Lomond Games", date: "7 June 2025", location: "Helensburgh, Argyll", region: "South West" },
-  { name: "Drumtochty Highland Games", date: "28 June 2025", location: "Auchenblae, Aberdeenshire", region: "Aberdeenshire" },
-  { name: "Peebles Highland Games", date: "5 July 2025", location: "Peebles, Scottish Borders", region: "South East" },
+  { name: "Gourock Highland Games", 
+    date: "11 May 2025", 
+    location: "Gourock, Inverclyde", 
+    region: "South West" },
+  { name: "Atholl Gathering", 
+    date: "25 May 2025", 
+    location: "Blair Castle, Perthshire", 
+    region: "West Midlands" },
+  { name: "Markinch Highland Games", 
+    date: "1 June 2025", 
+    location: "Markinch, Fife", 
+    region: "East Midlands" },
+  { name: "Helensburgh & Lomond Games", 
+    date: "7 June 2025", 
+    location: "Helensburgh, Argyll", 
+    region: "South West" },
+  { name: "Drumtochty Highland Games", 
+    date: "28 June 2025", 
+    location: "Auchenblae, Aberdeenshire", 
+    region: "Aberdeenshire" },
+  { name: "Peebles Highland Games", 
+    date: "5 July 2025", 
+    location: "Peebles, Scottish Borders", 
+    region: "South East" },
 ];
 
 const regionColors = {

@@ -94,7 +94,7 @@ function RegisterPage() {
               </p>
             </>
           ) : (
-            <div className="text-center">
+            <div className="text-center fade-in">
               <h2 className="text-2xl font-bold text-green-700 mb-4">Registration Submitted!</h2>
               <p className="text-gray-700">Thank you for signing up. We’ll be in touch with event details soon.</p>
             </div>
